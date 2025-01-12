@@ -1,44 +1,32 @@
-Here is the full README.md for your GitHub repository:
+Here’s the updated README.md for your GitHub repository with an eye-catching design, including the image and all the requested details:
 
 # Advanced SQL Injection Scanner
 
+![TAI SQLi Banner](https://i.ibb.co/5BtLqk4/Screenshot-20250111-100048-Termux.jpg)
+
+> ⚡ **Made by TEAM ANONYMOUS INDIA** ⚡  
+> 🔥 **The Ultimate SQL Injection Scanner** 🔥  
+> **Use this responsibly and ethically** ⚡
 
 ---
 
-|       |   _   |   ||   _   |   _   |   |  || |.|   | |.  1   |.  ||   1_|.  |   |.  |  |  | -|.  |-|.  _   |.  |      |____   |.  |   |.  |__|__| |:  | |:  |   |:  |      |:  1   |:  1   |:  1   |   |::.| |::.|:. |::.|      |::.. . |::..   |::.. . |   ---' --- ------'      -----------|:.-------'   --'
-
-🔥 Made by TEAM ANONYMOUS INDIA 🔥
-
-The Advanced SQL Injection Scanner is a fast, multi-threaded, and feature-packed tool for identifying SQL injection vulnerabilities in websites. It includes WAF bypass techniques, parameter detection, and blind SQL injection testing.
-
-
----
-
-Features
-
-Multi-threaded Testing: Test multiple payloads concurrently for speed.
-
-Blind SQL Injection: Time-based detection for blind SQL vulnerabilities.
-
-WAF Bypass: Techniques to bypass common Web Application Firewalls.
-
-Automatic Parameter Detection: Detect SQL parameters in URLs automatically.
-
-Colorful Output: Clear and readable output with color-coded messages.
-
-
+## Features
+- **Multi-threaded Testing**: Test multiple payloads concurrently for faster results.
+- **Blind SQL Injection**: Time-based detection for blind SQL injection vulnerabilities.
+- **WAF Bypass**: Bypass techniques to evade Web Application Firewalls.
+- **Automatic Parameter Detection**: Automatically detect SQL injection parameters in URLs.
+- **Colorful Output**: Enhanced, readable output with color-coded messages.
 
 ---
 
-Installation
+## Installation
 
 1. Clone this repository:
+   ```bash
+   git clone https://github.com/TEAM-ANONYMOUS-INDIA/TAI-SQLi.git
+   cd TAI-SQLi
 
-git clone https://github.com/TEAM-ANONYMOUS-INDIA/STUPID.git
-cd STUPID
-
-
-2. Install the required Python libraries:
+2. Install the required dependencies:
 
 pip install requests colorama
 
@@ -53,12 +41,12 @@ Basic Command:
 
 python3 sql_scanner.py -u <target_url> -p <parameter> [options]
 
-Options:
+Available Options:
 
 
 ---
 
-Examples
+Example Commands
 
 1. Basic SQL Injection Test (GET Method):
 
@@ -72,7 +60,7 @@ python3 sql_scanner.py -u "http://example.com/login" -p "username" -m POST
 
 python3 sql_scanner.py -u "http://example.com/page?id=1" -p "id" -b
 
-4. Automatic Parameter Detection:
+4. Automatically Detect SQL Parameters:
 
 python3 sql_scanner.py -u "http://example.com/page?id=1&user=admin" -f
 
@@ -102,14 +90,16 @@ When no vulnerability is found:
 
 Legal Disclaimer
 
-This tool is intended for educational purposes only. Use this tool responsibly and only test websites you have explicit permission to test. Unauthorized testing of websites without proper permission may violate laws and regulations.
+This tool is intended for educational purposes only. You are required to have explicit permission to test the websites. Unauthorized testing may be illegal and unethical.
+
+Use this tool responsibly!
 
 
 ---
 
 Contributing
 
-Feel free to contribute by submitting a pull request. Any improvements, bug fixes, or suggestions are welcome!
+We welcome contributions to improve this tool. Feel free to submit a pull request for bug fixes, improvements, or any other suggestions!
 
 
 ---
@@ -118,6 +108,7 @@ License
 
 This project is licensed under the MIT License.
 
-This `README.md` includes all necessary information for users to install, use, and understand the script's features while maintaining a professional, clear, and organized structure.
-
-
+### Key Updates:
+- **Banner Image**: Added the banner image at the top for a more visually appealing layout.
+- **Formatting**: Cleaned up and made the layout more user-friendly, ensuring the README is easy to read and navigate.
+- **GitHub Link**: The GitHub repository link is updated to `https://github.com/TEAM-ANONYMOUS-INDIA/TAI-SQLi`.
