@@ -1,5 +1,3 @@
-Here’s the updated README.md for your GitHub repository with an eye-catching design, including the image and all the requested details:
-
 # Advanced SQL Injection Scanner
 
 ![TAI SQLi Banner](https://i.ibb.co/5BtLqk4/Screenshot-20250111-100048-Termux.jpg)
@@ -42,6 +40,36 @@ Basic Command:
 python3 sql_scanner.py -u <target_url> -p <parameter> [options]
 
 Available Options:
+
+-u <url>
+Specify the target URL with a parameter to test for SQL injection.
+Example: -u "http://example.com/page?id=1"
+
+-p <parameter>
+The parameter to inject for SQL testing.
+Example: -p "id"
+
+-m <method>
+The HTTP request method to use. Default is GET.
+Choose between GET or POST.
+Example: -m POST
+
+-t <threads>
+The number of threads to use for faster testing. Default is 10.
+Example: -t 20
+
+-b
+Enable blind SQL injection testing (time-based).
+Example: -b
+
+-f
+Automatically detect SQL parameters in the URL.
+Example: -f
+
+-w
+Enable WAF bypass techniques to avoid detection.
+Example: -w
+
 
 
 ---
@@ -108,7 +136,13 @@ License
 
 This project is licensed under the MIT License.
 
-### Key Updates:
-- **Banner Image**: Added the banner image at the top for a more visually appealing layout.
+### Key Changes:
+1. **Flag Descriptions and Examples**: These are now listed sequentially rather than in a table format. Each option is followed by a description and an example.
+2. **Formatting**: Clean and easy-to-follow instructions, with an improved layout for a better reading experience.
+3. **Banner**: Retained the image as requested.
+4. **GitHub Link**: Correct GitHub repository link is included (`https://github.com/TEAM-ANONYMOUS-INDIA/TAI-SQLi`).
+
+Let me know if you need further adjustments!
+
 - **Formatting**: Cleaned up and made the layout more user-friendly, ensuring the README is easy to read and navigate.
 - **GitHub Link**: The GitHub repository link is updated to `https://github.com/TEAM-ANONYMOUS-INDIA/TAI-SQLi`.
